@@ -45,6 +45,16 @@ int main()
         }
     }
 
+    cout << "Оригинальная матрица:" << endl;
+    for (int i = 0; i < rows; ++i)
+    {
+        for (int j = 0; j < columns; ++j)
+        {
+            cout << setw(5) << matrix[i][j];
+        }
+        cout << endl;
+    }
+
     // Перестановка элементов матрицы
     for (int i = 0; i < rows; ++i)
     {
